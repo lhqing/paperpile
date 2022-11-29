@@ -3491,37 +3491,42 @@
   language = "en"
 }
 
-@ARTICLE{Lopez2022-wb,
-  title    = "{DestVI} identifies continuums of cell types in spatial
-              transcriptomics data",
-  author   = "Lopez, Romain and Li, Baoguo and Keren-Shaul, Hadas and Boyeau,
-              Pierre and Kedmi, Merav and Pilzer, David and Jelinski, Adam and
-              Yofe, Ido and David, Eyal and Wagner, Allon and Ergen, Can and
-              Addadi, Yoseph and Golani, Ofra and Ronchese, Franca and Jordan,
-              Michael I and Amit, Ido and Yosef, Nir",
-  abstract = "Most spatial transcriptomics technologies are limited by their
-              resolution, with spot sizes larger than that of a single cell.
-              Although joint analysis with single-cell RNA sequencing can
-              alleviate this problem, current methods are limited to assessing
-              discrete cell types, revealing the proportion of cell types
-              inside each spot. To identify continuous variation of the
-              transcriptome within cells of the same type, we developed
-              Deconvolution of Spatial Transcriptomics profiles using
-              Variational Inference (DestVI). Using simulations, we demonstrate
-              that DestVI outperforms existing methods for estimating gene
-              expression for every cell type inside every spot. Applied to a
-              study of infected lymph nodes and of a mouse tumor model, DestVI
-              provides high-resolution, accurate spatial characterization of
-              the cellular organization of these tissues and identifies
-              cell-type-specific changes in gene expression between different
-              tissue regions or between conditions. DestVI is available as part
-              of the open-source software package scvi-tools (
-              https://scvi-tools.org ).",
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@ARTICLE{Kleshchevnikov2022-oi,
+  title    = "Cell2location maps fine-grained cell types in spatial
+              transcriptomics",
+  author   = "Kleshchevnikov, Vitalii and Shmatko, Artem and Dann, Emma and
+              Aivazidis, Alexander and King, Hamish W and Li, Tong and
+              Elmentaite, Rasa and Lomakin, Artem and Kedlian, Veronika and
+              Gayoso, Adam and Jain, Mika Sarkin and Park, Jun Sung and Ramona,
+              Lauma and Tuck, Elizabeth and Arutyunyan, Anna and Vento-Tormo,
+              Roser and Gerstung, Moritz and James, Louisa and Stegle, Oliver
+              and Bayraktar, Omer Ali",
+  abstract = "Spatial transcriptomic technologies promise to resolve cellular
+              wiring diagrams of tissues in health and disease, but
+              comprehensive mapping of cell types in situ remains a challenge.
+              Here we present сell2location, a Bayesian model that can resolve
+              fine-grained cell types in spatial transcriptomic data and create
+              comprehensive cellular maps of diverse tissues. Cell2location
+              accounts for technical sources of variation and borrows
+              statistical strength across locations, thereby enabling the
+              integration of single-cell and spatial transcriptomics with
+              higher sensitivity and resolution than existing tools. We
+              assessed cell2location in three different tissues and show
+              improved mapping of fine-grained cell types. In the mouse brain,
+              we discovered fine regional astrocyte subtypes across the
+              thalamus and hypothalamus. In the human lymph node, we spatially
+              mapped a rare pre-germinal center B cell population. In the human
+              gut, we resolved fine immune cell populations in lymphoid
+              follicles. Collectively, our results present сell2location as a
+              versatile analysis tool for mapping tissue architectures in a
+              comprehensive manner.",
   journal  = "Nat. Biotechnol.",
   volume   =  40,
-  number   =  9,
-  pages    = "1360--1369",
-  month    =  sep,
+  number   =  5,
+  pages    = "661--671",
+  month    =  may,
   year     =  2022,
   language = "en"
 }
@@ -62022,5 +62027,40 @@
               differential geometry analysis; dynamical systems theory; dynamo;
               hematopoiesis; in silico perturbation; least action path; vector
               field reconstruction",
+  language = "en"
+}
+
+@ARTICLE{Lopez2022-wb,
+  title    = "{DestVI} identifies continuums of cell types in spatial
+              transcriptomics data",
+  author   = "Lopez, Romain and Li, Baoguo and Keren-Shaul, Hadas and Boyeau,
+              Pierre and Kedmi, Merav and Pilzer, David and Jelinski, Adam and
+              Yofe, Ido and David, Eyal and Wagner, Allon and Ergen, Can and
+              Addadi, Yoseph and Golani, Ofra and Ronchese, Franca and Jordan,
+              Michael I and Amit, Ido and Yosef, Nir",
+  abstract = "Most spatial transcriptomics technologies are limited by their
+              resolution, with spot sizes larger than that of a single cell.
+              Although joint analysis with single-cell RNA sequencing can
+              alleviate this problem, current methods are limited to assessing
+              discrete cell types, revealing the proportion of cell types
+              inside each spot. To identify continuous variation of the
+              transcriptome within cells of the same type, we developed
+              Deconvolution of Spatial Transcriptomics profiles using
+              Variational Inference (DestVI). Using simulations, we demonstrate
+              that DestVI outperforms existing methods for estimating gene
+              expression for every cell type inside every spot. Applied to a
+              study of infected lymph nodes and of a mouse tumor model, DestVI
+              provides high-resolution, accurate spatial characterization of
+              the cellular organization of these tissues and identifies
+              cell-type-specific changes in gene expression between different
+              tissue regions or between conditions. DestVI is available as part
+              of the open-source software package scvi-tools (
+              https://scvi-tools.org ).",
+  journal  = "Nat. Biotechnol.",
+  volume   =  40,
+  number   =  9,
+  pages    = "1360--1369",
+  month    =  sep,
+  year     =  2022,
   language = "en"
 }
